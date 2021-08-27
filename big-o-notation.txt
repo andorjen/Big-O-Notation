@@ -7,7 +7,7 @@ O(25) ==> O(1)
 O(n2 + n3) ==> O(n3)
 O(n + n + n + n) ==> O(n)
 O(1000 × log(n) + n) ==> O(n) 
-O(1000 × n × log(n) + n) ==> O(n*log(n))  => O(n)??
+O(1000 × n × log(n) + n) ==> O(n*log(n))     !!!!!!!!!!!!!
 O(2n + n2) ==> O(2n)
 O(5 + 3 + 1) ==> O(1)
 O(n + n(1/2) + n2 + n × log(n)10) ==> O(n2)
@@ -62,7 +62,7 @@ function runningSubtotals(nums) {
   return subtotals;
 }
 
-6. O(n2)
+6. O(n)            !!!!!!!!!!!!!!!!!!!!!!
 const VOWELS = "aeiouAEIOU";
 
 function vowelsCounts(word) {
@@ -98,7 +98,7 @@ What’s the time complexity of the .every array method?  ==> O(n)
 
 What’s the time complexity of the .sort array method? ==> O(n*log(n))
 
-What’s the time complexity of the .unshift array method? ==>O(1)
+What’s the time complexity of the .unshift array method? ==>O(n)      !!!!!!!!!!!!!!!
 
 What’s the time complexity of the .push array method? ==>O(1)
 
